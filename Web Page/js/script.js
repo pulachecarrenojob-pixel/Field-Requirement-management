@@ -118,7 +118,7 @@ function animCount(el) {
 
 /* ─── VISUAL SCREEN ENGINE LIGHTBOX ─── */
 function openLightbox(type) {
-  document.getElementById('lb-img').src = type === 'as-is' ? '../img/Requirement_Process_AS-IS.png' : '../img/Requirement_Process_To-BE.png';
+  document.getElementById('lb-img').src = type === 'as-is' ? 'Requirement_Process_AS-IS.png' : 'img/Requirement_Process_To-BE.png';
   document.getElementById('lightbox').classList.add('open');
 }
 function closeLightbox() { document.getElementById('lightbox').classList.remove('open'); }
